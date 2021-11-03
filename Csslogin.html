@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image:  url("https://wallpapercave.com/wp/wp2162770.jpg");
+            background-size: cover;
+        }
+        header{
+            color: rgb(255, 255, 247);
+            margin-top: 10px;
+        }
+       .new{
+           background-color: transparent;
+           position: relative;left: 520px;
+           
+       }
+       a{
+         
+           font-size: large;
+           color: rgb(255, 255, 247);
+           position: relative;left: 1100px;
+           
+       }
+    span{
+        position: relative;top: 80px;;
+        text-align: center;
+        color:  rgb(7, 248, 216);
+    }
+    .formfield{
+        width: 300px;
+        position: relative;top: 80px;
+        color: rgb(7, 248, 216);
+        font-size: x-large;
+        border-color: tomato;
+    }
+    .forminput{
+        width: 15;
+        height: 25px;
+        width: 250px;
+
+    }
+    button{
+        width: 80px;
+        height: 25px;
+    }
+    .formfield:hover{
+        color: tomato;
+    }
+    </style>
+</head>
+<body>
+    <!-- Navigation bar -->
+    <header>
+        <div>
+        <a href="Cssindex.html">Home</a>
+        <a href="Csstraining.html">create account</a>
+        <a href="about.html">about  </a></header>
+
+    <!-- welcome note-->
+        <span><h1> Welcome to login page</h1></span>
+    
+    <!-- Login field-->
+      <div>
+       <form action="Cssindex.html" class="new" ><b>
+            <fieldset class="formfield">
+                <legend>Log in</legend>
+                      Username:<br>
+                        <input type="text" name="uname"  id="uname" required placeholder="enter number or mail id" class="forminput"><br><br>
+                         password:<br>
+                        <input type="password" name="password" id="password" required placeholder="enter your password" class="forminput"><br><br>
+                        <button type="submit">Submit</button>&ensp;
+                        <button type="reset">Reset</button> 
+                        </fieldset></b>
+        </form>
+    </div>
+</body>
+</html>

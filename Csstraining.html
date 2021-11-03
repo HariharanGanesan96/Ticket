@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+ 
+    /*margin*/
+    .margin{
+        margin: 20px 0px 0px 50px;
+         }
+    .signin{
+        font-size: 20px;
+        border-radius: 4px;
+        margin: 100px 0px 0px 490px;
+        padding: 25px 60px 0px 30px;
+        line-height: 35px;
+        width: 300px;
+        height: 320px;
+        border: solid;
+        border-color: darkcyan; 
+    }
+    input[type=text]{
+        width: 280px;
+        height: 30px;
+        border-radius: 4px;
+        border-color:black;
+           }
+    input[type=password]{
+        width: 280px;
+        height: 30px;
+        border-radius: 4px;
+        border-color:black;
+        color: black;
+    }
+    .input1:hover{
+        color: white;
+    }
+    button[type=submit]{
+        width: 150px;
+        height: 35px;
+        border-radius: 4px;
+        font-size:large;
+        top: 10px;
+        background-color: gainsboro;
+        text-align: center;
+        border-color:black;
+    }
+hr{
+    height: 1px;
+    background-color: white;
+    border: none;
+}
+    </style>
+</head>
+<body style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSveF0atioPWX3LEud7gAnVb1NUoFcqtA0ZZQ&usqp=CAU);background-repeat: no-repeat;background-size: cover;">
+    <header>
+        <h1 class="margin"> Welcome to Book My Ticket</h1>
+    </header><hr>
+    <!--Account creation field-->
+    <form action="Cssindex.html" class="signin">
+        <b style="font-size:x-large" class="input1">Create account: </b><br>
+        <!--User Name field-->
+        <label for="username" id="uName" class="input1">User Name:</label>
+        <input type="text" name="username" id="username" placeholder="Enter mobile number or mail id" required>
+         <!--Password field-->
+        <label for="password" id="Pword" class="input1">Password :</label>
+        <input type="password" id="password" placeholder="Enter the password"  required><br>
+         <!--Password field-->
+        <label for="repassword" id="rePword" class="input1" >Re-Password :</label><br>
+        <input type="password" id="repassword" placeholder="Re-Enter the password" required><br>
+         <!--button field-->
+        <button type="submit" style="position: relative;top:10px;">Continue</button>
+
+    </form>
+</body>
+</html>

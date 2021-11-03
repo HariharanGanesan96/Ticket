@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .logo{
+            width: 150px;
+            height: 50px;
+
+        }
+        .search{
+            font-size: large;
+            color: white;
+            height: 25px;
+        }
+        input[type=search]{
+            border-color: black;
+            border-radius: 4px;
+            color: black;
+
+        }
+        a{
+            text-decoration: none;          
+            text-color: white;  
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        body{
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        h2:hover{
+            color: blue;
+        }
+        h2{
+            margin-left: 50px;
+        }
+        .recommend{
+            color: white;
+        }
+        .size{
+            width: 240px;
+            height: 300px;
+            border: solid 1px;
+            border-radius: 4px;
+            border-color: white;
+        }
+        table{
+            margin-left: 50px;
+            font-size: large;
+            column-gap: 100px;
+            border-spacing: 5px;
+        }
+      button{
+
+        width: 120px;
+        height: 40px;
+        font-size: 15px;
+        color: black;
+              }
+
+    </style>
+</head>
+<body style="background-image: url(http://us.123rf.com/450wm/serezniy/serezniy1112/serezniy111200986/11517317-spotlight-studio-interior-black-background.jpg);">
+    <header>
+        <b style="font-size: xx-large;" class="search">Book My Ticket</b> &ensp;
+        <label for="search" class="search" >Search</label>
+        <input type="search" name="search" id="search" class="search" placeholder="search movie or theater">
+        <input type="text" name="location" id="location" placeholder="location" list="locations" style="position: relative;left: 400px;">
+        <a href="Csslogin.html" class="search" style="position:relative;left: 450px;">login </a>
+        <a href="Csstraining.html" class="search" style="position:relative;left: 460px;">create account</a>
+        <datalist id="locations">
+            <option value="chennai" selected>chennai</option>
+            <option value="trichy">trichy</option>
+            <option value="madurai">madurai</option>
+            <option value="theni">theni</option>
+        </datalist>
+        <hr>
+    </header>
+
+    <!-- Recommend movie part-->
+      <div class="recommend">
+        <h2>Recommend movies</h2>
+            <table >
+                <thead>
+                    <tr>
+                        <th><a href="Cssmovieindex.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGsam55tgPA0g8E4WL097D84Hyi6Iz4hEREg&usqp=CAU" alt="venam" class="size"></a> </th>
+                        <th><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE1XuFoRu3_dJlrHm-_SkyHbEdzBvKZpWmirwQpMa0cQ4is0H-7vGMUPfKCipB2nN2jys&usqp=CAU" alt="black" class="size"></th>
+                        <th><img src="https://dvvy6louqcr7j.cloudfront.net/vista/HO00012357/heroPoster/Free-Guy.png" alt="freeguy" class="size" ></th>
+                        <th><img src="https://i.pinimg.com/originals/03/c0/c2/03c0c2137dd12b0dd65d89c3b2ac2baa.jpg" alt="freeguy" class="size"></th>
+                         <th><img src="https://twhscaledonian.com/wp-content/uploads/2021/09/shang.jpeg" alt="Shang-Chi" class="size"></th>
+                    </tr>
+                    <tr>
+                        <td>Name: Master</td>
+                        <td>Name: Black widow</td>
+                        <td>Name: Free guy</td>
+                        <td>Name: Robin Hood</td>
+                        <td>Name: Shang-Chi</td>
+                    </tr>
+                    <tr>
+                        <td>Action/Thriller</td>
+                        <td>Action/Adventure</td>
+                        <td>Action/Adventure</td>
+                        <td>Action/Adventure</td>
+                        <td>Action/Fantasy</td>
+                    </tr>
+                    <tr>
+                        <td>2h 59m</td>
+                        <td>2h 13m</td>
+                        <td>1h 56m</td>
+                        <td>1h 56m</td>
+                        <td>2h 12m</td>
+                    </tr>
+                    <tr>
+                         <td>90% liked this film</td>
+                         <td>88% liked this film</td>
+                         <td>92% liked this film55m</td>
+                         <td>77% liked this film</td>
+                         <td>93% liked this film </td>
+                    </tr>
+                    <tr>
+                        <td><button ><a href="a href="Cssmovieindex.html"> Book Now</a></button></td>
+                        <td><button >Book Now</button></td>
+                        <td><button >Book Now</button></td>
+                        <td><button >Book Now</button></td>
+                        <td><button >Book Now</button></td>
+                    </tr>
+                </thead>
+            </table>
+
+            <!-- Tamil movies part-->
+            <div class="recommed">
+                <h2>Tamil movies</h2>
+                    <table >
+                        <thead>
+                            <tr>
+                                <th><img src="https://m.media-amazon.com/images/M/MV5BNmU1OTYzYzAtMDcyOS00MDI0LTg2ZmQtYTEyMDdmMmQ0MjY5XkEyXkFqcGdeQXVyOTk3NTc2MzE@._V1_FMjpg_UX1000_.jpg" alt="master" class="size"> </th>
+                                <th><img src="https://tamil.samayam.com/photo/msid-83945356,imgsize-158184/pic.jpg" alt="Docter" class="size"></th>
+                                <th><img src="https://images.jdmagicbox.com/movies/centralized_146683522021_10_14_09_58_31_220.jpg" alt="araanmani3" class="size" ></th>
+                                <th><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQbdfThtsfZ4yIh_5nCm9LFpInQKnqJ7-epw3edjI7ddLJQDHnT" alt="lifT" class="size"></th>
+                                 <th><img src="https://static.toiimg.com/photo/msid-79799027/79799027.jpg?280761" alt="halli Pogathey" class="size"></th>
+                            </tr>
+                            <tr>
+                                <td>Name: Master</td>
+                                <td>Name: Black widow</td>
+                                <td>Name: Free guy</td>
+                                <td>Name: Lift</td>
+                                <td>Name: Thalli Pogathey </td>
+                            </tr>
+                            <tr>
+                                <td>Action/Thriller</td>
+                                <td>Action/Adventure</td>
+                                <td>Action/Adventure</td>
+                                <td>Action/Adventure</td>
+                                <td>Action/Fantasy</td>
+                            </tr>
+                            <tr>
+                                <td>2h 59m</td>
+                                <td>2h 13m</td>
+                                <td>1h 56m</td>
+                                <td>1h 56m</td>
+                                <td>2h 12m</td>
+                            </tr>
+                            <tr>
+                                 <td>90% liked this film</td>
+                                 <td>88% liked this film</td>
+                                 <td>92% liked this film55m</td>
+                                 <td>77% liked this film</td>
+                                 <td>93% liked this film </td>
+                            </tr>
+                            <tr>
+                                <td><button >Book Now</button></td>
+                                <td><button >Book Now</button></td>
+                                <td><button >Book Now</button></td>
+                                <td><button >Book Now</button></td>
+                                <td><button >Book Now</button></td>
+                            </tr>
+                        </thead>
+                    </table>    
+      </div>
+    
+</body>
+</html>
